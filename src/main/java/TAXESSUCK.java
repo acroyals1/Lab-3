@@ -16,7 +16,7 @@ public class TAXESSUCK {
         
         Scanner in = new Scanner(System.in);
         
-        System.out.println("Your amount purchased was");
+        System.out.println("Your amount purchased was:");
         
         float priceAmount = in.nextFloat();
         
@@ -25,10 +25,11 @@ public class TAXESSUCK {
         
         float countyTAXPrice = (priceAmount * countyTAX);
         float stateTAXPrice = (priceAmount *stateTAX);
-        float totalTAX = (countyTAXPrice * stateTAXPrice);
+        float totalTAX = (countyTAXPrice + stateTAXPrice);
         float totalSale =(totalTAX + priceAmount);
         
-        System.out.println("County Tax Amount:$" + countyTAXPrice + "/n" + "State Tax Amount:$" + stateTAXPrice + "/n" + "Total Tax Amount:$" + totalTAX + "/n" + "Total Sale Amount:$" + totalSale);
+        System.out.println("County Tax Amount:$" + countyTAXPrice + "\n" + "State Tax Amount:$" + stateTAXPrice + "\n" + "Total Tax Amount:$" + totalTAX + "\n" + "Total Sale Amount:$" + totalSale);
         
+// I could not figur out how to round to the nearest two decimal places.
     }
 }
