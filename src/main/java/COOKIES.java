@@ -16,14 +16,14 @@ public class COOKIES {
  
     Scanner sc = new Scanner(System.in);
  
-    System.out.print("Enter how many cookies you ate: ");
+    System.out.print("Enter how many cookies the cookie monster scarfed down: ");
  
-    int cookieCount = sc.nextInt();
+    int cookieCounts = sc.nextInt();
  
-    int servingSize = 40/10;
-    int caloriesPerCookie = 300/servingSize;
-    int totalCalories = cookieCount * caloriesPerCookie;
+    int servingSizeofcookies = 40/10;
+    int caloriesPerCookie = 300/servingSizeofcookies;
+    int totalCalories = cookieCounts * caloriesPerCookie;
  
-    System.out.println("Total calories consumed: " + totalCalories);
+    System.out.println("Total calories the cookie monster consumed: " + totalCalories);
   }
 }
