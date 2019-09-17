@@ -35,19 +35,19 @@ public class TestScoresAndGrade {
 		
 		if (average <= 100){
 			if(average >= 90){
-				JOptionPane.showMessageDialog(null, "Your average is " + average + " or A");
+				JOptionPane.showMessageDialog(null, "Your average is " + average + " an A");
 			}
 			else if(average >= 80){
-				JOptionPane.showMessageDialog(null, "Your average is " + average + " or B");
+				JOptionPane.showMessageDialog(null, "Your average is " + average + " a B");
 			}
 			else if(average >= 70){
-				JOptionPane.showMessageDialog(null, "Your average is " + average + " or C");
+				JOptionPane.showMessageDialog(null, "Your average is " + average + " a C");
 			}
 			else if(average >= 60){
-				JOptionPane.showMessageDialog(null, "Your average is " + average + " or D");
+				JOptionPane.showMessageDialog(null, "Your average is " + average + " a D");
 			}
 			else if(average < 60) {
-				JOptionPane.showMessageDialog(null, "Your average is " + average + " or F");
+				JOptionPane.showMessageDialog(null, "Your average is " + average + " a F");
 			}
 		}
 		else
